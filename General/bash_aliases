@@ -1,0 +1,14 @@
+
+# Preferred ls method, adds ll to macOS!!!
+alias ll='ls -FGlAhp'
+
+# find explicit file path for a command
+# syntax: which <command-name>
+alias which='type -all'
+
+# Quick ssh connection to commonly used device
+alias sshHome='ssh user@home.domain.connect'
+
+# Quick ping to google to check packet loss and latency
+# syntax: pingwtf 10
+alias pingwtf='ping 8.8.8.8 -c $1'
